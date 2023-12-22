@@ -8,6 +8,17 @@ function Navbar() {
             <Link className="navbar-logo">
                 LOGO HERE
             </Link>
+          <ul className="nav_user-info">
+            <li className="nav_account">
+              
+            </li>
+            <li className="nav_state">
+
+            </li>
+            <li className="nav_mode">
+
+            </li>
+          </ul>
         </div>
     </nav>
   );
