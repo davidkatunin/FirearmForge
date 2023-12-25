@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.navbar_top, .navbar_bottom{
+    align-items: center;
+    background-color: black;
+}
+
+.navbar_top {
+    height: 56px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.navbar-logo {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav_account-btn {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+
+s.logo-red {
+    color: red;
+    text-decoration: none;
+}
+
+s.logo-orange {
+    color: orange;
+    text-decoration: none;
+}
+
+.li_top {
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.li_top:hover {
+    color: red;
+}
+
+ul.nav_user-info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: right;
+    color: white;
+}
