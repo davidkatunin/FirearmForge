@@ -1,22 +1,20 @@
-body{
+html, body, div, span, nav, ul, h1, h2, h3, h4, h5, h6, li, a, ol, button {
     margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.nav_top {
+    padding: .5rem 0;
+    background-color: black;
 }
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
-}
-
-.navbar_top, .navbar_bottom{
-    align-items: center;
-    background-color: black;
-}
-
-.navbar_top {
-    height: 56px;
-    padding-left: 50px;
-    padding-right: 50px;
     padding-top: 10px;
 }
 
@@ -54,9 +52,6 @@ s.logo-orange {
 
 ul.nav_user-info {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    border: 0;
     text-align: right;
     color: white;
 }

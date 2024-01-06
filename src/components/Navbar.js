@@ -4,7 +4,8 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className="navbar_top">
+    <nav className="nav_desktop">
+      <div className="nav_top">
         <div className="navbar-container">
             <a href="#" className="navbar-logo"><s className="logo-red">Firearm</s><s className="logo-orange">Forge</s></a>
           <ul className="nav_user-info">
@@ -18,7 +19,11 @@ function Navbar() {
               Switch
             </li>
           </ul>
-        </div>
+        </div>  
+      </div>
+      <div className="nav_bottom">
+        hi
+      </div>
     </nav>
   );
 }
