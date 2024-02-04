@@ -16,6 +16,16 @@ html, body, div, span, nav, ul, h1, h2, h3, h4, h5, h6, li, a, ol, button {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+ul.nav_user-info {
+    list-style-type: none;
+    text-align: right;
+    color: white;
+    padding: 5px;
 }
 
 .navbar-logo {
@@ -48,10 +58,4 @@ s.logo-orange {
 
 .li_top:hover {
     color: red;
-}
-
-ul.nav_user-info {
-    list-style-type: none;
-    text-align: right;
-    color: white;
 }
